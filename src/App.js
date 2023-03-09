@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Header from './components/Layout/Header';
 
 function App() {  
   return (
-    <React.Fragment>
-     <h1>Introduction to React Scripting</h1>
-    </React.Fragment>
+    <Fragment>     
+     <Header name="Bhargava" role="Architect"> Good Morning </Header>
+    </Fragment>
   );
 }
 
